@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="1683" started-at="2017-02-27T06:06:30Z" finished-at="2017-02-27T06:06:32Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="1683" started-at="2017-02-27T06:06:30Z" finished-at="2017-02-27T06:06:32Z">
+      <class name="com.div.restApiAutomation.TestTwitterPostApi">
+        <test-method status="PASS" signature="testPostAccountSetting(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.div.restApiAutomation.TestTwitterPostApi@101df177]" name="testPostAccountSetting" duration-ms="189" started-at="2017-02-26T22:06:32Z" data-provider="postData" finished-at="2017-02-26T22:06:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[account/update_profile.json]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rohit]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[dublin]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Rohit]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[dublin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostAccountSetting -->
+        <test-method status="PASS" signature="testPostAccountSetting(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.div.restApiAutomation.TestTwitterPostApi@101df177]" name="testPostAccountSetting" duration-ms="148" started-at="2017-02-26T22:06:32Z" data-provider="postData" finished-at="2017-02-26T22:06:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[account/update_profile.json]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Divya]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Fremont]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Divya]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Fremont]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostAccountSetting -->
+      </class> <!-- com.div.restApiAutomation.TestTwitterPostApi -->
+      <class name="com.div.restApiAutomation.TestTwitterGetApi">
+        <test-method status="PASS" signature="testGetAccountSetting()[pri:0, instance:com.div.restApiAutomation.TestTwitterGetApi@130f889]" name="testGetAccountSetting" duration-ms="664" started-at="2017-02-26T22:06:30Z" finished-at="2017-02-26T22:06:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetAccountSetting -->
+      </class> <!-- com.div.restApiAutomation.TestTwitterGetApi -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
