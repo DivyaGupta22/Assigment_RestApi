@@ -5,7 +5,7 @@
 
 	<appender name="fileAppender" class="org.apache.log4j.FileAppender">
 	   <param name="Threshold" value="INFO" />
-	   <param name="File" value="kayak.log" />
+	   <param name="File" value="twitter.log" />
 	  
 	   <layout class="org.apache.log4j.PatternLayout">
 		<param name="ConversionPattern"

@@ -19,8 +19,10 @@ public  class HelperConfig {
 	
 	public static  void getConfig(String filename){
 		Properties prop=new Properties();
+		
 		try {
 			prop.load(new FileInputStream(filename));
+			 logger.info("Readig data from config  file");
 			endpoint=prop.getProperty("endpoint");
 			consumerKey=prop.getProperty("consumerKey");
 			consumerSecret=prop.getProperty("consumerSecret");

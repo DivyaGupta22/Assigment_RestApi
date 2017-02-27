@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="2924" started-at="2017-02-25T08:55:17Z" finished-at="2017-02-25T08:55:20Z">
+  <suite name="Suite" duration-ms="1925" started-at="2017-02-27T06:30:04Z" finished-at="2017-02-27T06:30:06Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="2924" started-at="2017-02-25T08:55:17Z" finished-at="2017-02-25T08:55:20Z">
+    <test name="Test" duration-ms="1925" started-at="2017-02-27T06:30:04Z" finished-at="2017-02-27T06:30:06Z">
       <class name="com.div.restApiAutomation.TestTwitterPostApi">
-        <test-method status="PASS" signature="testPostAccountSetting(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.div.restApiAutomation.TestTwitterPostApi@4671e53b]" name="testPostAccountSetting" duration-ms="244" started-at="2017-02-25T00:55:19Z" data-provider="postData" finished-at="2017-02-25T00:55:20Z">
+        <test-method status="PASS" signature="testPostAccountSetting(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.div.restApiAutomation.TestTwitterPostApi@51e2adc7]" name="testPostAccountSetting" duration-ms="305" started-at="2017-02-26T22:30:05Z" data-provider="postData" finished-at="2017-02-26T22:30:06Z">
           <params>
             <param index="0">
               <value>
@@ -16,7 +16,7 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[Divya]]>
+                <![CDATA[Rohit]]>
               </value>
             </param>
             <param index="2">
@@ -26,7 +26,7 @@
             </param>
             <param index="3">
               <value>
-                <![CDATA[Divya]]>
+                <![CDATA[Rohit]]>
               </value>
             </param>
             <param index="4">
@@ -38,7 +38,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPostAccountSetting -->
-        <test-method status="PASS" signature="testPostAccountSetting(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.div.restApiAutomation.TestTwitterPostApi@4671e53b]" name="testPostAccountSetting" duration-ms="218" started-at="2017-02-25T00:55:20Z" data-provider="postData" finished-at="2017-02-25T00:55:20Z">
+        <test-method status="PASS" signature="testPostAccountSetting(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.div.restApiAutomation.TestTwitterPostApi@51e2adc7]" name="testPostAccountSetting" duration-ms="236" started-at="2017-02-26T22:30:06Z" data-provider="postData" finished-at="2017-02-26T22:30:06Z">
           <params>
             <param index="0">
               <value>
@@ -47,7 +47,7 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA[Rohit]]>
+                <![CDATA[Divya]]>
               </value>
             </param>
             <param index="2">
@@ -57,7 +57,7 @@
             </param>
             <param index="3">
               <value>
-                <![CDATA[Rohit]]>
+                <![CDATA[Divya]]>
               </value>
             </param>
             <param index="4">
@@ -71,7 +71,7 @@
         </test-method> <!-- testPostAccountSetting -->
       </class> <!-- com.div.restApiAutomation.TestTwitterPostApi -->
       <class name="com.div.restApiAutomation.TestTwitterGetApi">
-        <test-method status="PASS" signature="testGetAccountSetting()[pri:0, instance:com.div.restApiAutomation.TestTwitterGetApi@66d1af89]" name="testGetAccountSetting" duration-ms="1222" started-at="2017-02-25T00:55:17Z" finished-at="2017-02-25T00:55:18Z">
+        <test-method status="PASS" signature="testGetAccountSetting()[pri:0, instance:com.div.restApiAutomation.TestTwitterGetApi@307f6b8c]" name="testGetAccountSetting" duration-ms="744" started-at="2017-02-26T22:30:04Z" finished-at="2017-02-26T22:30:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetAccountSetting -->
